@@ -1,2 +1,3 @@
-# test
-test
+# UAS iMechE 2023 Challenge Testing Scripts
+
+...

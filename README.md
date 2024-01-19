@@ -11,12 +11,3 @@ We further modified the formulation to incorporate acceleration and velocity con
 ## PID based Controller
 We implemented high-level position controller (lateral acceleration as control) and low level attitude controller (angular rates as control)<br>
 <img src="/results/pid_tracking_1.jpeg" width="50%" height="50%"/>  <img src="/results/pid_tracking_2.jpeg" width="40%" height="40%"/><br>
-
-## Integral Sliding Mode Controller
-To mitigate the external disturbances cause by wind we implemented sliding mode control based controller<br>
-<img src="/results/pid_with_disturbances.jpeg" width="40%" height="40%"/> <img src="/results/smc_with_disturbances.jpeg" width="40%" height="40%"/><br>
-PID with external disturbances  vs   Sliding Mode with external disturbance
-
-## Performance Validation on Hardware
-<img src="/results/hardware_implementation.gif" width="120%" height="120%"/>
-
